@@ -1,0 +1,20 @@
+{
+  "name": "ai-platform-bot",
+  "version": "1.0.0",
+  "description": "AI Chat Platform with Telegram Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.64.0",
+    "better-sqlite3": "^9.2.2",
+    "jsonwebtoken": "^9.0.2",
+    "axios": "^1.6.2",
+    "uuid": "^9.0.1",
+    "@google/generative-ai": "^0.1.3",
+    "cors": "^2.8.5",
+    "qrcode": "^1.5.3"
+  }
+}
